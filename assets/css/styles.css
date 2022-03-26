@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-/* ------------------------------Colors */
+/*--------------------------------------------Colors*/
+
 .bg-color-name-title {
     background-color: #676767;
 }
 
 .bg-color-three-reasons {
-    background-color: #fff;
+    background-color: #ffffff;
 }
 
 .bg-color-personal-info {
@@ -42,12 +43,13 @@
 }
 
 .ui-menu-color-contact {
-    background-color: #349db3;
+    background-color: #3498db;
 }
 
 .ui-menu-color-download {
-    background-color: #525252;
+    background-color: #d9a81d;
 }
+
 
 .ui-menu-color-github {
     background-color: #1c4a6c;
@@ -57,23 +59,24 @@
     background-color: #e74c3c;
 }
 
+
+
+
 body {
     font-family: Roboto, sans-serif;
     font-weight: 300;
     background-color: #525252;
-    background-color: #f4f4f4;
     color: #555555;
 }
 
 
-/* ------------------------------Special margins/padding/text */
+/*--------------------------------------------Special Paddings/Margins/Text*/
 
 h1,
 h2,
 h3,
 h4 {
     margin: 0;
-
 }
 
 .uppercase {
@@ -83,18 +86,17 @@ h4 {
 .general-sub {
     font-family: "Exo", sans-serif;
     font-weight: 300;
-    color: fafafa;
-
+    color: #fafafa;
 }
 
 .inline-block {
     display: inline-block;
 }
 
+
 .row-table {
     display: table;
 }
-
 
 .history-heading,
 .section-heading {
@@ -102,15 +104,11 @@ h4 {
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 40px;
-
 }
 
-.menucontainermargins {
-    padding-right: 0px;
-    padding-left: 0px;
-}
 
-/* ------------------------------Heading */
+/*--------------------------------------------Heading*/
+
 header {
     margin: 0;
 }
@@ -119,9 +117,8 @@ header {
     margin-left: 50px;
 }
 
-
 .logo {
-    background: url("../images/profiler.webp");
+    background: url("../images/rosie.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -136,7 +133,7 @@ header {
     font-weight: 100;
     font-size: 46px;
     margin-top: 50px;
-    color: white;
+    color: #ffffff;
 }
 
 .title {
@@ -145,9 +142,8 @@ header {
     font-size: 28px;
     margin-top: 20px;
     margin-bottom: 90px;
-    color: white;
+    color: #ffffff;
 }
-
 
 #nav {
     margin: 0;
@@ -166,9 +162,10 @@ header {
 .menuitem a {
     width: 100%;
     text-decoration: none;
-    color: white;
+    color: #ffffff;
     height: 120px;
 }
+
 
 .menuitem a i {
     padding-top: 22px;
@@ -188,7 +185,8 @@ header {
     letter-spacing: 2px;
 }
 
-/* ------------------------------Hover.css */
+
+/*--------------------------------------------Hover.css*/
 
 .hvr-sweep-to-bottom:before {
     background: rgba(0, 0, 0, 0.2);
@@ -196,7 +194,7 @@ header {
 }
 
 
-/* ------------------------------Footer */
+/*--------------------------------------------Footer*/
 
 footer {
     background-color: #525252;
@@ -205,19 +203,19 @@ footer {
     margin: 0;
 }
 
-.cv-pdf i {
-    font-size: 18px;
+footer .cv-pdf i {
     color: #fafafa;
     text-align: center;
+    font-size: 18px;
     padding-left: 5px;
+}
+
+footer .cv-pdf i:hover {
+    color: #e84610;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
-}
-
-.cv-pdf i:hover {
-    color: #e84610;
 }
 
 .social-links {
@@ -241,15 +239,14 @@ footer {
 }
 
 .social-links li a i:hover {
-    background-color: #e84610;
+    background: #e84610;
 }
 
 #footer-details {
-    padding: 20px;
-
+    margin: 20px;
 }
 
-/* ------------------------------Three reasons */
+/*--------------------------------------------Three Reasons*/
 
 .three-reasons-icon {
     font-size: 26px;
@@ -260,18 +257,17 @@ footer {
     margin-bottom: 15px;
 }
 
-/* ------------------------------Personal Info */
+/*--------------------------------------------Personal Info*/
 
 .personal-info-item {
-    display: block;
     margin-bottom: 20px;
+    display: block;
     clear: both;
 }
 
 .personal-info-item .key,
 .personal-info-item .value {
     padding-right: 8px;
-    display: inline-block;
 }
 
 .personal-info-item .key p,
@@ -280,6 +276,7 @@ footer {
 }
 
 .personal-info-item .key {
+    display: inline-block;
     width: 30%;
     margin-right: 21px;
     padding-top: 2px;
@@ -291,15 +288,16 @@ footer {
 }
 
 .personal-info-item .value {
-    width: 60%;
+    display: inline-block;
     position: relative;
+    width: 60%;
 }
 
-/* ------------------------------Skills */
+/*--------------------------------------------Skills*/
+
 .progress {
     position: relative;
     height: 25px;
-    margin-bottom: 4px;
 }
 
 .progress-type {
@@ -311,16 +309,13 @@ footer {
     background-color: rgba(25, 25, 25, 0.2);
 }
 
+
 .progress-section {
     margin: 40px 20px;
 }
 
-/* ------------------------------Work History */
 
-.history-heading {
-    color: #fafafa;
-    margin-bottom: 50px;
-}
+/*--------------------------------------------Work History*/
 
 .timeline-item {
     padding: 4em 2em 0em 2em;
@@ -342,7 +337,7 @@ footer {
     display: block;
     font-family: "Exo", sans-serif;
     font-weight: 500;
-    font-size: 0.8em;
+    font-size: .8em;
     padding: 0;
     margin: 0;
 }
@@ -359,12 +354,16 @@ footer {
     background: #fafafa;
 }
 
+.history-heading {
+    color: #fafafa;
+    margin-bottom: 50px;
+}
+
 .history-items {
     margin-bottom: 30px;
 }
 
-/* ------------------------------Contact form */
-
+/*--------------------------------------------Contact*/
 
 .contact-heading {
     font-family: "Exo", sans-serif;
@@ -372,6 +371,7 @@ footer {
     margin-top: 25px;
     margin-bottom: 20px;
 }
+
 
 .center-form {
     padding-top: 10px;
@@ -382,17 +382,16 @@ footer {
 button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
-    color: #fafafa;
     background-color: #e84610;
+    color: #fafafa;
 }
 
-/* ------------------------------Interests */
-
-#map {
+/*--------------------------------------------Map*/
+div#map {
     min-height: 360px;
 }
 
-/* ------------------------------Media queries */
+/*--------------------------------------------Media Queries*/
 
 @media(min-width: 992px) {
     .section-column {
@@ -407,5 +406,4 @@ button[type="submit"] {
         margin: 0 auto;
         max-width: 50%;
     }
-
 }
